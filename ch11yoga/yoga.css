@@ -1,0 +1,60 @@
+#mobile{display: none;}
+#desktop{display: inline;}
+body{background-color:#3F2860; color:#3F2860; font-family: Verdana, Arial, sans-serif;}
+header{background-color#9BC1C2; background-image: url(lilyheader.jpg); background-repeat: no-repeat; height: 150px}
+footer{background-color#9BC1C2; font-size: small; text-align: center; font-style: italic; padding: 1em, 1em, 1em, 1em;}
+nav{font-weight: bold; text-align: center; width: 190; padding: 1em, 1em, 1em, 1em; float: left;}
+nav a{text-decoration: none; padding: 1em; margin-bottom: 1em; display: block; text-align: center; font-weight: bold; border: 3px outset #CCCCCC;}
+nav a:link{color: #3F2860;}
+nav a:visited{color: #497777;}
+nav a:hover{color: #A26100; border: 3px inset #333333; background: #B6D2D3; transition: background 2s;}
+nav ul{text-decoration: none; padding-left: 0; font-size: 1.2em;}
+h1{padding-top: 50px; padding-left: 2em}
+li{font-size: 90%;}
+#wrapper{text-align: center; width: 80%; color: #F5F5F5; min-width: 550px; max-width: 1280px;}
+main{padding: 0, 3em, 3em, 3em; display: block; margin-left: 170px;}
+img{padding: 2em, 2em, 2em, 2em;}
+#mathero{height: 300px; background-image: yogamat.jpg; background-size: 100%; background-repeat: no-repeat;}
+#loungehero{height: 300px; background-image: yogalounge.jpg; background-size: 100%; background-repeat: no-repeat;}
+.floatleft{float: left; margin-right: 4em;}
+.clear{clear: both;}
+header, main, nav, footer, figure, figcaption, aside, section, article{display: block;}
+@media only screen  and (max-width: 64em){
+body{margin: 0,0,0,0; padding: 0,0,0,0;}
+#wrapper{min-width: 0; width: auto; margin: 0,0,0,0; padding: 0,0,0,0;}
+header{padding-top: 1px;}
+main{padding-top: 0; padding-bottom: 2.5em; padding-left: 1em; padding-right: 1em; margin: 0; font-size: 90%; float: none;}
+nav{float: none; width: auto; padding-left: 2em;}
+nav a{padding: 0.2em; margin-left:0.3em; float: left; width: 23%;}
+h2{padding-left: 2em; padding-right: 2em;}
+h3{padding-left: 2em; padding-right: 2em;}
+p{padding-left: 2em; padding-right: 2em;}
+dl{padding-left: 2em; padding-right: 2em;}
+main ul{margin-left: 2em;}
+.floatleft{margin-left: 2em; margin-bottom: 1em; float: left;}
+.clear{clear: both; padding-left: 2em;}
+#mathero{height: 150px; width: 80%; margin-left: auto; margin-right: auto; background-image: yogamat.jpg; background-size: 100%; background-repeat: no-repeat;}
+#loungehero{height: 150px; width: 80%; margin-left: auto; margin-right: auto; background-image: yogalounge.jpg; background-size: 100%; background-repeat: no-repeat;}
+}
+@media only screen  and (max-width: 37.5em){
+h1{font-size: 2em; padding-top: 0.25em; padding-left: 1.5em; width: 85%; text-position: center;}
+li{font-size: 100%;}
+footer{padding: 0.5em; margin: 0;}
+#mobile{display: inline;}
+#desktop{display: none;}
+nav a{padding: 0.5em; float: left; width: 45%;}
+.floatleft{float: none; display: none;}
+#mathero{height: 0; width: 80%; margin-left: auto; margin-right: auto; background-image: none; background-size: 100%; background-repeat: no-repeat;}
+#loungehero{height: 0; width: 80%; margin-left: auto; margin-right: auto; background-image: none; background-size: 100%; background-repeat: no-repeat;}
+label{float: none; text-align: left; input[type = "submit"]{margin-left: 0;}
+}
+table{margin-left: auto; margin-right: auto; width: 60%; border: 1px, #3F2860; margin-bottom: 1em; border-collapse: collapse;}
+td{padding: 0.5em; border: 1px, #3F2860;}
+th{padding: 0.5em; border: 1px, #3F2860;}
+table:nth-of-type(2){background: #D7E8E9;}
+caption{margin: 1em; font-size: 120%; font-weight: bold;}
+label{float: left; display: block; text-align: right; width: 10em; padding-right: 1em;}
+input{display: block; margin-bottom: 2em;}
+textarea{display: block; margin-bottom: 2em;}
+input[type = "submit"]{margin-left: 12em;}
+form{padding: 3em;}
